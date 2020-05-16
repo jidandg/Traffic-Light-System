@@ -118,7 +118,7 @@ BEGIN
 	TL_PROCESS: PROCESS(CLOCK)
 		--Variabel-variabel ini digunakan untuk mencatat log dari sistem ke file
 		--log
-		VARIABLE TITLE			: STRING(1 TO 14)	:= "Traffic Report";
+		VARIABLE TITLE			: STRING(1 TO 21)	:= "Traffic Lights Report";
 		VARIABLE HEADER		: STRING(1 TO 44)	:= "Time  Street A  Street B  Street C  Street D";
 		
 		VARIABLE STATUS		: STRING(1 TO 38)	:= "  GREEN     GREEN     RED       RED   ";
