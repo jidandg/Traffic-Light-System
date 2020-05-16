@@ -1,4 +1,4 @@
-Traffic Report
+Traffic Lights Report
 
 Time  Street A  Street B  Street C  Street D
    1  GREEN     GREEN     RED       RED   
