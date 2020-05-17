@@ -2,9 +2,9 @@
 --
 --Kelompok A2 Perancangan Sistem Digital
 --Anggota:
---* Haidar Hanif					1806148694
---* Josef Eric						1806148725
---* Muhammad Miftah Faridh		1806148782
+--* 
+--* 
+--* 
 --* Jidan Dhirayoga Gumbira	1806200116
 
 LIBRARY IEEE;
