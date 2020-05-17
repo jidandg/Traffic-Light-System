@@ -2,9 +2,9 @@
 --
 --Kelompok A2 Perancangan Sistem Digital
 --Anggota:
---* 
---* 
---* 
+--* Haidar Hanif					1806148694
+--* Josef Eric						1806148725
+--* Muhammad Miftah Faridh		1806148782
 --* Jidan Dhirayoga Gumbira	1806200116
 
 LIBRARY IEEE;
@@ -226,16 +226,16 @@ BEGIN
 						WHEN 15 =>
 							IF(TIMER_TL = 60) THEN
 								STATE		<= CD_YELLOW;
-								STATUS := STATUS_B;
+								STATUS 	:= STATUS_B;
 							ELSIF(TIMER_TL = 65) THEN
 								STATE		<= AB_RED;
-								STATUS := STATUS_C;
+								STATUS 	:= STATUS_C;
 							ELSIF(TIMER_TL = 125) THEN
 								STATE		<= AB_YELLOW;
-								STATUS := STATUS_D;
+								STATUS 	:= STATUS_D;
 							ELSIF(TIMER_TL = 130) THEN
 								STATE		<= CD_RED;
-								STATUS := STATUS_A;
+								STATUS 	:= STATUS_A;
 							ELSE
 								STATE		<= PREV_STATE;
 								STATUS	:= STATUS_PREV;
